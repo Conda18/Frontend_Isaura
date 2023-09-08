@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundVortex</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/51/51264.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .navbar-center {
+            display: flex;
+            justify-content: center;
+        }
+        .navbar-nav {
+            text-align: center;
+        }
+        .navbar-nav .nav-item {
+            padding: 0 10px; 
+        }
+        /* Establece el margen superior del formulario */
+        #albumess {
+            margin-top: 40px;
+        }
+        /* Estilo de la sombra en los cards */
+        .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                transition: 0.3s;
+            }
+    
+            /* Efecto de sombra al pasar el cursor sobre los cards */
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">SoundVortex</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="..\CANCIONES\agregarCancion.html">canciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perfil</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div class="container" id="albumess">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="https://youtu.be/_OZgB5ZIPpM?si=Qc7sr0O1rrTCJYsa" class="card-link">
+                        <div class="card">
+                            <img src="https://cdn.shopify.com/s/files/1/2460/7967/files/KAROLG-0058_Manana-Sera-Bonito-Album_reskin__ShareIMG-01_6b8873bf-f20a-416d-b6e2-0f26a5d5e237.png?v=1691774674" alt="Imagen 1" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">MAÑANA SERA BONITO</h5>
+                                <p class="card-text">KAROL G</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            <div class="col-md-3">
+                <a href="https://youtu.be/1CzJ6LwPuUk?si=VsKTLywXzQxBiRX5" class="card-link">
+                    <div class="card">
+                        <img src="https://cdns-images.dzcdn.net/images/cover/164eb56b907249002f3760c6388ba4fc/500x500.jpg" alt="Imagen 2" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Resistencia</h5>
+                            <p class="card-text">Álbum musical de Yandel</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://youtu.be/YnVJSzARWeA?si=9Ae7N-SAwfGIYEPQ" class="card-link">
+                    <div class="card">
+                        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/TE5FLVGGBRDX3OW5QNOTYIO7BE.jpg" alt="Imagen 3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Endless Summer Vacation</h5>
+                            <p class="card-text">Álbum musical de Miley Cyrus</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://youtu.be/QkTLL2kzuBA?si=V8RHEI8vD00Amc8O" class="card-link">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROeoPrtKSCbq6cO_l-Nu1DDXAyiHhdU4y0xgJhkpS0ZS0gaqhA_7HUQBg2e-sWcHBAJCQ&usqp=CAU" alt="Imagen 4" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Speak Now (Taylor's Version)</h5>
+                            <p class="card-text">Álbum musical de Taylor Swift</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
